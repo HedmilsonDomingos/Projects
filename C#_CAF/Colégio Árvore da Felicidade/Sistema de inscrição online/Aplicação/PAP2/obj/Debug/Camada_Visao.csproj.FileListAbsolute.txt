@@ -1,0 +1,88 @@
+C:\Users\User\Desktop\PAP2\PAP2\bin\PAP2.dll
+C:\Users\User\Desktop\PAP2\PAP2\bin\PAP2.pdb
+C:\Users\User\Desktop\PAP2\PAP2\obj\Debug\Camada_Visao.csprojResolveAssemblyReference.cache
+C:\Users\User\Desktop\PAP2\PAP2\obj\Debug\PAP2.dll
+C:\Users\User\Desktop\PAP2\PAP2\obj\Debug\PAP2.pdb
+G:\PAP2\PAP2\bin\PAP2.dll
+G:\PAP2\PAP2\bin\PAP2.pdb
+G:\PAP2\PAP2\obj\Debug\Camada_Visao.csprojResolveAssemblyReference.cache
+G:\PAP2\PAP2\obj\Debug\PAP2.dll
+G:\PAP2\PAP2\obj\Debug\PAP2.pdb
+C:\Users\EngºFernando\Documents\PAP2\PAP2\bin\PAP2.dll
+C:\Users\EngºFernando\Documents\PAP2\PAP2\bin\PAP2.pdb
+C:\Users\EngºFernando\Documents\PAP2\PAP2\obj\Debug\Camada_Visao.csprojResolveAssemblyReference.cache
+C:\Users\EngºFernando\Documents\PAP2\PAP2\obj\Debug\PAP2.dll
+C:\Users\EngºFernando\Documents\PAP2\PAP2\obj\Debug\PAP2.pdb
+I:\Documentos\Todo d Project\PAP2\PAP2\bin\PAP2.dll
+I:\Documentos\Todo d Project\PAP2\PAP2\bin\PAP2.pdb
+I:\Documentos\Todo d Project\PAP2\PAP2\bin\Camada_Modelo.dll
+I:\Documentos\Todo d Project\PAP2\PAP2\bin\Camada_Acesso_aos_Dados.dll
+I:\Documentos\Todo d Project\PAP2\PAP2\bin\Camada_Modelo.pdb
+I:\Documentos\Todo d Project\PAP2\PAP2\bin\Camada_Acesso_aos_Dados.pdb
+I:\Documentos\Todo d Project\PAP2\PAP2\obj\Debug\Camada_Visao.csprojResolveAssemblyReference.cache
+I:\Documentos\Todo d Project\PAP2\PAP2\obj\Debug\PAP2.dll
+I:\Documentos\Todo d Project\PAP2\PAP2\obj\Debug\PAP2.pdb
+J:\Documentos\Todo d Project\PAP2\PAP2\bin\PAP2.dll
+J:\Documentos\Todo d Project\PAP2\PAP2\bin\PAP2.pdb
+J:\Documentos\Todo d Project\PAP2\PAP2\bin\Camada_Modelo.dll
+J:\Documentos\Todo d Project\PAP2\PAP2\bin\Camada_Acesso_aos_Dados.dll
+J:\Documentos\Todo d Project\PAP2\PAP2\bin\Camada_Modelo.pdb
+J:\Documentos\Todo d Project\PAP2\PAP2\bin\Camada_Acesso_aos_Dados.pdb
+J:\Documentos\Todo d Project\PAP2\PAP2\obj\Debug\Camada_Visao.csprojResolveAssemblyReference.cache
+J:\Documentos\Todo d Project\PAP2\PAP2\obj\Debug\PAP2.dll
+J:\Documentos\Todo d Project\PAP2\PAP2\obj\Debug\PAP2.pdb
+I:\Documentos que veem do ambiente de trabalho\PAP2\PAP2\bin\PAP2.dll
+I:\Documentos que veem do ambiente de trabalho\PAP2\PAP2\bin\PAP2.pdb
+I:\Documentos que veem do ambiente de trabalho\PAP2\PAP2\bin\Camada_Modelo.dll
+I:\Documentos que veem do ambiente de trabalho\PAP2\PAP2\bin\Camada_Acesso_aos_Dados.dll
+I:\Documentos que veem do ambiente de trabalho\PAP2\PAP2\bin\Camada_Modelo.pdb
+I:\Documentos que veem do ambiente de trabalho\PAP2\PAP2\bin\Camada_Acesso_aos_Dados.pdb
+I:\Documentos que veem do ambiente de trabalho\PAP2\PAP2\obj\Debug\Camada_Visao.csprojResolveAssemblyReference.cache
+I:\Documentos que veem do ambiente de trabalho\PAP2\PAP2\obj\Debug\PAP2.dll
+I:\Documentos que veem do ambiente de trabalho\PAP2\PAP2\obj\Debug\PAP2.pdb
+F:\Documentos\Documentos que veem do ambiente de trabalho\Sistema de Incrição On-Line\Aplicação\PAP2\bin\PAP2.dll
+F:\Documentos\Documentos que veem do ambiente de trabalho\Sistema de Incrição On-Line\Aplicação\PAP2\bin\PAP2.pdb
+F:\Documentos\Documentos que veem do ambiente de trabalho\Sistema de Incrição On-Line\Aplicação\PAP2\bin\Camada_Modelo.dll
+F:\Documentos\Documentos que veem do ambiente de trabalho\Sistema de Incrição On-Line\Aplicação\PAP2\bin\Camada_Acesso_aos_Dados.dll
+F:\Documentos\Documentos que veem do ambiente de trabalho\Sistema de Incrição On-Line\Aplicação\PAP2\bin\Camada_Modelo.pdb
+F:\Documentos\Documentos que veem do ambiente de trabalho\Sistema de Incrição On-Line\Aplicação\PAP2\bin\Camada_Acesso_aos_Dados.pdb
+F:\Documentos\Documentos que veem do ambiente de trabalho\Sistema de Incrição On-Line\Aplicação\PAP2\obj\Debug\Camada_Visao.csprojResolveAssemblyReference.cache
+F:\Documentos\Documentos que veem do ambiente de trabalho\Sistema de Incrição On-Line\Aplicação\PAP2\obj\Debug\PAP2.dll
+F:\Documentos\Documentos que veem do ambiente de trabalho\Sistema de Incrição On-Line\Aplicação\PAP2\obj\Debug\PAP2.pdb
+F:\Documentos\Aplicação\PAP2\bin\PAP2.dll
+F:\Documentos\Aplicação\PAP2\bin\PAP2.pdb
+F:\Documentos\Aplicação\PAP2\bin\Camada_Modelo.dll
+F:\Documentos\Aplicação\PAP2\bin\Camada_Acesso_aos_Dados.dll
+F:\Documentos\Aplicação\PAP2\bin\Camada_Modelo.pdb
+F:\Documentos\Aplicação\PAP2\bin\Camada_Acesso_aos_Dados.pdb
+F:\Documentos\Aplicação\PAP2\obj\Debug\Camada_Visao.csprojResolveAssemblyReference.cache
+F:\Documentos\Aplicação\PAP2\obj\Debug\PAP2.dll
+F:\Documentos\Aplicação\PAP2\obj\Debug\PAP2.pdb
+F:\Documentos\Sistema de inscrição online\Aplicação\PAP2\bin\PAP2.dll
+F:\Documentos\Sistema de inscrição online\Aplicação\PAP2\bin\PAP2.pdb
+F:\Documentos\Sistema de inscrição online\Aplicação\PAP2\bin\Camada_Modelo.dll
+F:\Documentos\Sistema de inscrição online\Aplicação\PAP2\bin\Camada_Acesso_aos_Dados.dll
+F:\Documentos\Sistema de inscrição online\Aplicação\PAP2\bin\Camada_Modelo.pdb
+F:\Documentos\Sistema de inscrição online\Aplicação\PAP2\bin\Camada_Acesso_aos_Dados.pdb
+F:\Documentos\Sistema de inscrição online\Aplicação\PAP2\obj\Debug\Camada_Visao.csprojResolveAssemblyReference.cache
+F:\Documentos\Sistema de inscrição online\Aplicação\PAP2\obj\Debug\PAP2.dll
+F:\Documentos\Sistema de inscrição online\Aplicação\PAP2\obj\Debug\PAP2.pdb
+F:\Colégio Árvore da Felicidade\Documentos\Sistema de inscrição online\Aplicação\PAP2\bin\PAP2.dll
+F:\Colégio Árvore da Felicidade\Documentos\Sistema de inscrição online\Aplicação\PAP2\bin\PAP2.pdb
+F:\Colégio Árvore da Felicidade\Documentos\Sistema de inscrição online\Aplicação\PAP2\bin\Camada_Modelo.dll
+F:\Colégio Árvore da Felicidade\Documentos\Sistema de inscrição online\Aplicação\PAP2\bin\Camada_Acesso_aos_Dados.dll
+F:\Colégio Árvore da Felicidade\Documentos\Sistema de inscrição online\Aplicação\PAP2\bin\Camada_Modelo.pdb
+F:\Colégio Árvore da Felicidade\Documentos\Sistema de inscrição online\Aplicação\PAP2\bin\Camada_Acesso_aos_Dados.pdb
+F:\Colégio Árvore da Felicidade\Documentos\Sistema de inscrição online\Aplicação\PAP2\obj\Debug\Camada_Visao.csprojResolveAssemblyReference.cache
+F:\Colégio Árvore da Felicidade\Documentos\Sistema de inscrição online\Aplicação\PAP2\obj\Debug\PAP2.dll
+F:\Colégio Árvore da Felicidade\Documentos\Sistema de inscrição online\Aplicação\PAP2\obj\Debug\PAP2.pdb
+D:\Colégio Árvore da Felicidade\Documentos\Sistema de inscrição online\Aplicação\PAP2\bin\PAP2.dll.config
+D:\Colégio Árvore da Felicidade\Documentos\Sistema de inscrição online\Aplicação\PAP2\bin\PAP2.dll
+D:\Colégio Árvore da Felicidade\Documentos\Sistema de inscrição online\Aplicação\PAP2\bin\PAP2.pdb
+D:\Colégio Árvore da Felicidade\Documentos\Sistema de inscrição online\Aplicação\PAP2\bin\Camada_Modelo.dll
+D:\Colégio Árvore da Felicidade\Documentos\Sistema de inscrição online\Aplicação\PAP2\bin\Camada_Acesso_aos_Dados.dll
+D:\Colégio Árvore da Felicidade\Documentos\Sistema de inscrição online\Aplicação\PAP2\bin\Camada_Modelo.pdb
+D:\Colégio Árvore da Felicidade\Documentos\Sistema de inscrição online\Aplicação\PAP2\bin\Camada_Acesso_aos_Dados.pdb
+D:\Colégio Árvore da Felicidade\Documentos\Sistema de inscrição online\Aplicação\PAP2\obj\Debug\Camada_Visao.csprojResolveAssemblyReference.cache
+D:\Colégio Árvore da Felicidade\Documentos\Sistema de inscrição online\Aplicação\PAP2\obj\Debug\PAP2.dll
+D:\Colégio Árvore da Felicidade\Documentos\Sistema de inscrição online\Aplicação\PAP2\obj\Debug\PAP2.pdb

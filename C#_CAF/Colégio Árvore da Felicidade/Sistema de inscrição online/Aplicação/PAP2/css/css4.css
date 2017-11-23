@@ -1,0 +1,761 @@
+﻿* 
+{
+    margin:0;
+    padding:0;
+    border:0;
+}
+
+#contentor
+{
+    border-style: none;
+    border-color: inherit;
+    border-width: medium;
+    width:70%;
+    height:auto;
+    margin: auto;
+    padding:0;
+    background: #fff url('../img/img.png');
+    position:relative;
+    top: 0px;
+    left: 0px;
+}
+
+#cabeca
+{
+    width:100%;
+    height: 150px;
+    background-image:url('../img/cabeca2.gif');
+    background-repeat: repeat-x;
+    margin:0 auto;
+    padding-top:20px;
+    text-align: left;
+}
+
+
+#dentrocabeca_logo
+{
+    width:50%;
+    height: 80%;
+    margin:-20px 0 10px 5px;
+    background-color:transparent;
+
+}
+
+#dentrocabeca
+{
+    background-image:url('../img/dentrocabeca.gif');
+    width:646px;
+    height: 100%;
+    background-repeat: repeat-x;
+    margin:-110px 0 0 150px;
+}
+
+
+#Busca
+{
+    border-style: solid;
+    border-color: inherit;
+    border-width: 2px;
+    background-color:#2F4F4F;
+    border-radius:15px;
+    width:300px;
+    float:right;
+    height: 36px;
+    margin:-70px 10px 0 0;
+}
+ 
+#txtBusca
+{
+    float:left;
+    background-color:transparent;
+    padding-left:5px;
+    font-style:italic;
+    font-size:18px;
+    border:none;
+    height:32px;
+    width:200px;
+}
+
+#menu
+{
+    width:auto;
+    height: 30px;
+    background-image:url('../img/menu.gif');
+    background-repeat: repeat-x;
+    margin:-23px 0 0 0;
+}
+
+#dentromenu
+{
+    width:100%;
+    height: 30px;
+    margin:0 0 0 80px;
+
+}
+
+.links 
+{
+    color:#F3F3F3;
+    font-family: Arial;
+    font-size:15px;
+    text-decoration:none;
+    padding:13px;
+}
+
+.links:hover
+{
+    background-image:url(../img/bgmenu.gif);
+    background-repeat: repeat-x;
+    padding-top:1px;
+    height:30px;
+}
+
+
+#corpo_geral
+{
+    width:auto;
+    height: auto;
+    margin: 3px 0 3px 0 ;
+    background: url('../img/img.png');
+}
+
+#corpo
+{
+    width:auto;
+    height: auto;
+}
+
+
+#corpo-left
+{
+    width:58%;
+    height: 50%;
+    background-color: #fff;
+    float: left;
+     margin: 0 0 5px 0 ;
+}
+
+#corpo-rigth
+{
+    width:41%;
+    height: 50%;
+    background-color: transparent;
+    float: right;
+     margin: 0 0 5px 0;
+    text-align: left;
+}
+
+#not1 
+{
+    width:100%;
+    height: 30%;
+    float: left;
+    margin: 0 0 3px 0;
+}
+
+#fot1 
+{
+    width:118px;
+    height: 118px;
+    background-image:url(../img/RNA.gif);
+    border-radius:15px;
+    float: left;
+}
+
+#not2 
+{
+    width:100%;
+    height: 30%;
+    float: left;
+    margin: 0 0 3px 0;
+}
+
+#fot2
+{
+    width:118px;
+    height: 118px;
+    background-image:url(../img/EPAL.gif);
+    border-radius:15px;
+    float: left;
+}
+
+#not3 
+{
+    width:100%;
+    height: 118px;
+    float: left;
+}
+
+#fot3
+{
+    width:118px;
+    height: 118px;
+    background-image:url(../img/Car.gif);
+    border-radius:15px;
+    float: left;
+}
+
+#cursos
+{
+    width:auto;
+    height: 30px;
+    background-image:url(../img/Cursos.gif);
+    background-repeat: repeat-y;
+    clear:both;
+    margin: 0 0 5px 0 ;
+}
+
+#corpo_bottom
+{
+    width:auto;
+    height: 100%;
+    clear:both;
+    margin: 10px 0 0 0 ;
+}
+
+#puni 
+{
+    width:155px;
+    height: 155px;
+     background-image:url(../img/puniv.gif);
+     border-radius:15px;
+     float: left;
+     margin: 0 200px 0 0;
+}
+
+
+
+
+#notpuni 
+{
+    width:19%;
+    height: 155px;
+    float: left;
+    margin: 0 4px 0 -200px ;
+}
+
+#info 
+{
+    width:155px;
+    height: 155px;
+    background-image:url(../img/infor.gif);
+    border-radius:15px;
+    float: left;
+    margin: 0 200px 0 0 ;
+}
+
+#notinfo 
+{
+    width:18%;
+    height: 155px;
+    float: left;
+    margin: 0 4px 0 -200px ;
+}
+
+#eletro
+{
+    width:155px;
+    height: 155px;
+    background-image:url(../img/electro.gif);
+    border-radius:15px;
+    float: left;
+    margin: 0 0 0 0 ;
+}
+
+
+#noteletro
+{
+    width:19%;
+    height: 155px;
+    float: left;
+    margin: 0 4px 0 0 ;
+}
+
+#Central_de_Atendimentos
+{
+    width:300px;
+    height: 220px;
+    float: left;
+    margin: 0 10px 0 10% ;
+    background-image:url(../img/rodape.gif);
+    background-repeat: repeat-x;
+}
+
+#Links_Relacionados
+{
+    width:300px;
+    height: 220px;
+    float: left;
+    margin: 0 10px 0 0 ;
+    background-image:url(../img/rodape.gif);
+    background-repeat: repeat-x;
+     
+}
+#Redes_Socias
+{
+    width:300px;
+    height: 220px;
+    background-image:url(../img/rodape.gif);
+    background-repeat: repeat-x;
+    float: left;
+}
+#img 
+{
+    width:300px;
+    height: 300px;
+    background:url(../imagens/Ater.gif);
+    margin: 60px 0 50px 17% ;
+    float:left;
+    border-radius:15px;
+}
+#txt 
+{
+    width:300px;
+    height: 300px;
+    background-color: #dcdcdc;
+    border: solid 1px #570000;
+    margin:60px 0 0 0;
+    float:left;
+    text-align: left;
+    border-radius:15px;
+}
+#imgp 
+{
+    width:300px;
+    height: 300px;
+    background:url(../imagens/Untitled-1.gif);
+    border: solid 1px #570000;
+    margin: 60px 0 50px 17% ;
+    float:left;
+    border-radius:15px;
+}
+#txtp 
+{
+    width:300px;
+    height: 300px;
+    background-color: #dcdcdc;
+    border: solid 1px #570000;
+    margin:60px 0 0 0;
+    float:left;
+    text-align: left;
+    border-radius:15px;
+}
+
+#matric
+{
+    width:900px;
+    height: auto;
+    background-image:url('../img/fundo_matric.gif');
+    border: solid 2px #570000;
+    margin: 20px 0 10px 10%;
+}
+#cadastrotxt
+{
+    width:596px;
+    height: auto;
+    background-color: transparent;
+    float:left;
+}
+#cadastroProfessor
+{
+    width:700px;
+    height:auto;
+    background-image:url('../img/fundo_matric.gif');
+    border: solid 2px #570000;
+    margin: auto;
+}
+
+#Efeito_Uniforme
+{
+    width:700px;
+    height:auto;
+    background-image:url('../img/fundo_matric.gif');
+    border: solid 2px #570000;
+    margin: auto;
+}
+
+
+
+#galeria 
+{
+    width:800px;
+    height:auto;
+    background-image:url('../img/img.png');
+    margin:30px 0 0 20px;
+    text-align: left;
+}
+
+#informacoes
+{
+    width:900px;
+    height: 700px;
+    border: solid 1px #570000;
+    margin:35px 0 0 10%;
+    text-align: left;
+    background-image:url(../img/lab.gif);
+}
+
+#informacoes_puniv 
+{
+    width:900px;
+    height: 700px;
+    border: solid 1px #570000;
+    margin:35px 0 0 10%;
+    text-align: left;
+    background-image:url(../img/fundo_puniv.gif);
+}
+
+
+#informacoes_electro 
+{
+    width:900px;
+    height: 700px;
+    border: solid 1px #570000;
+    margin:35px 0 0 10%;
+    text-align: left;
+    background-image:url(../img/fundo_eletro.gif);
+}
+
+#div10ª
+{
+    width:33%;
+    height: 400px;
+    background-color: transparent;
+    float:left;
+    margin:290px 0 0 2px ;
+  }
+
+#div12ª
+{
+    width:33%;
+    height: 400px;
+    background-color: transparent;
+    margin:290px 0 0 0 ;
+    float:left;
+}
+
+#div11ª
+{
+    width:33%;
+    height: 400px;
+    background-color: transparent;
+    margin:290px 0 0 0 ;
+    float:left;
+}
+
+
+
+#contentor_secretaria
+{
+    border-style: none;
+    border-color: inherit;
+    border-width: medium;
+    width:100%;
+    height:auto;
+    margin: auto;
+    padding:0;
+    background-image:url(../img/img.png);
+    position:relative;
+    bottom: -9px;
+}
+
+
+#corpo_secretaria
+{
+    width:770px;
+    height: auto;
+    margin: 30px 0 10px 0 ;
+    float: left;
+    background-color: transparent;
+}
+
+#menu_secretaria
+{
+    width:200px;
+    height: 280px;
+    background-image:url(../img/menu_secre.jpg);
+    margin: 30px 60px 0 0 ;
+    float:right;
+    border-radius:15px;
+
+}
+
+
+#contentor_perfil
+{
+    border-style: none;
+    border-color: inherit;
+    border-width: medium;
+    width:100%;
+    height:auto;
+    margin: auto;
+    padding:0;
+    background-image:url(../img/img.png);
+    position:relative;
+    bottom: -9px;
+}
+
+
+#corpo_perfil
+{
+    width:850px;
+    height: auto;
+    margin: 30px 0 15px 5px ;
+    float: left;
+    background-image:url(../img/bg.gif);
+}
+
+#menu_perfil
+{
+    width:200px;
+    height: 280px;
+    background-image:url(../img/menu_secre.jpg);
+    margin: 30px 30px 0 0 ;
+    float:right;
+    border-radius:15px;
+
+}
+
+#contentor_perfil_Manha
+{
+    border-style: none;
+    border-color: inherit;
+    border-width: medium;
+    width:100%;
+    height:600px;
+    margin: auto;
+    padding:0;
+    background-image:url(../img/img.png);
+    position:relative;
+    bottom: -9px;
+}
+
+
+#corpo_perfil_Manha
+{
+    width:765px;
+    margin: 30px 0 10px 5px ;
+    float: left;
+    background-image:url(../img/bg.gif);
+}
+
+#menu_perfil_Manha
+{
+    width:200px;
+    height: 280px;
+    background-image:url(../img/menu_secre.jpg);
+    margin: 30px 60px 0 0 ;
+    float:right;
+    border-radius:15px;
+
+}
+
+.link 
+{
+    color:#F3F3F3;
+    font-family: Arial;
+    font-size:15px;
+    text-decoration:none;
+    padding:5px;
+}
+
+.link:hover
+{
+    background-image:url(../img/bgmenu2.jpg);
+    background-repeat: repeat-x;
+    padding-top:1px;
+    height:20px;
+}
+
+
+#menusladersecre
+{
+    width:320px;
+    height: auto;
+    float: right;
+    margin: 0 5px 0 0 ;
+}
+
+#slader_secretaria
+{
+    width:320px;
+    height: 240px;
+    background-image:url(../img/img.png);
+    float: right;
+    margin: 10px 0 0 0 ;
+}
+
+
+#menu_login
+{
+    width:200px;
+    height: 280px;
+    background-image:url(../img/menu_secre.jpg);
+    margin: 60px 5px 0 0 ;
+    float:right;
+    border-radius:15px;
+
+}
+
+
+#menu_sobre_nos
+{
+    width:200px;
+    height: 280px;
+    background-image:url(../img/menu_secre.jpg);
+    margin: -440px 60px 0 0 ;
+    float:right;
+    border-radius:15px;
+    float:right;
+    border-radius:15px;
+
+}
+
+#menu_gale
+{
+    width:200px;
+    height: 280px;
+    background-image:url(../img/menu_secre.jpg);
+    margin: 30px 60px 0 0 ;
+    float:right;
+    border-radius:15px;
+
+}
+
+#menu_eve
+{
+    width:200px;
+    height: 280px;
+    background-image:url(../img/menu_secre.jpg);
+    margin: -370px 30px 0 0 ;
+    float:right;
+    border-radius:15px;
+
+}
+
+
+#menu_age
+{
+    width:200px;
+    height: 280px;
+    background-image:url(../img/menu_secre.jpg);
+    margin: -400px 30px 0 0 ;
+    float:right;
+    border-radius:15px;
+
+}
+
+
+
+#conteudonoticia
+{
+    width:765px;
+    height: auto;
+    margin: 30px 0 10px 5px ;
+    float: left;
+    background-color: transparent;
+}
+
+#Menu_Not
+{
+    width:300px;
+    height: auto;
+    margin: 30px 0 10px 5px ;
+    float: right;
+}
+
+#dentro_menu_not
+{
+    width:200px;
+    height: 280px;
+    background-image:url(../img/menu_secre.jpg);
+    margin: 40px 30px 0 0 ;
+    float:right;
+    border-radius:15px;
+
+}
+
+#TB_Propinas
+{
+    width:35%;
+    height: 400px;
+    background-color: #aea7a7;
+    float:left;
+    margin:10px 0 0 0;
+  }
+
+#txtEventos
+{
+    width:70%;
+    height: 400px;
+    background-color: transparent;
+    float:left;
+  }
+
+#Dentro_corpo_secretaria1
+{
+    width:48%;
+    height: auto;
+    background-color: transparent;
+    float:left;
+    margin:0 0 0 0;
+}
+
+
+#Dentro_corpo_secretaria2
+{
+    width:49%;
+    height: auto;
+    background-color: transparent;
+    float:right;
+}
+
+
+#dentro_corpo_perfil_Manha_1
+{
+    width:100%;
+    height: 350px;
+    background-color: transparent;
+    float:left;
+}
+
+#dentro_corpo_perfil_Manha_2
+{   
+    width:100%;
+    height: auto;
+    background-color: #eed49e;
+    float:left;
+    margin: 10px 0 0 0;
+}
+
+#dentro_corpo_perfil_Manha_3
+{
+    width:100%;
+    height: auto;
+    background-color: #eed49e;
+    float:left;
+    margin: 10px 0 0 0;
+}
+
+#dentro_corpo_perfil_Manha_4
+{
+    width:100%;
+    height: auto;
+    background-color: #eed49e;
+    float:left;
+    margin: 10px 0 0 0;
+}
+
+
+
+#rodape
+{
+    width:auto;
+    height: 220px;
+    background-color: #4a0000;
+    background-image:url(../img/rodape.gif);
+    background-repeat: repeat-x;
+    clear:both;
+    margin:0 0 0 0 ;
+}
+

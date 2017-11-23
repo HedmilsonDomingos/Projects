@@ -1,0 +1,213 @@
+﻿<%@ Master Language="C#" AutoEventWireup="true" CodeBehind="Modelo.master.cs" Inherits="PAP2.Modelo" %>
+
+<!DOCTYPE html>
+
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head runat="server">
+
+    <title>www.colegioarvoredafelicidade.com.ao </title>
+
+    <link href="css/css1.css" rel="stylesheet" />
+    <link href="css/css2.css" rel="stylesheet" />
+    <link href="css/css3.css" rel="stylesheet" />
+	<link href="css/css4.css" rel="stylesheet" />
+    <link href="css/css5.css" rel="stylesheet" />
+    <link href="css/css_Admi.css" rel="stylesheet" />
+  <style>
+  #slides {
+      display: none
+    }
+   .container {
+      margin: 0 auto
+    }
+
+    /* For tablets & smart phones */
+    @media (max-width: 767px) {
+      body {
+        padding-left: 20px;
+        padding-right: 20px;
+      }
+      .container {
+        width: auto
+      }
+    }
+
+    /* For smartphones */
+    @media (max-width: 480px) {
+      .container {
+        width: auto
+      }
+    }
+
+    /* For smaller displays like laptops */
+    @media (min-width: 768px) and (max-width: 979px) {
+      .container {
+        width: 724px
+      }
+    }
+
+    /* For larger displays */
+    @media (min-width: 1200px) {
+      .container {
+        width: 1170px
+      }
+    }
+      .auto-style3 {
+          font-size: medium;
+          text-align: left;
+      }
+      .auto-style4 {
+          text-decoration: underline;
+      }
+      .auto-style5 {
+          font-size: small;
+      }
+      .auto-style6 {
+          font-size: medium;
+          text-align: left;
+      }
+      .auto-style8 {
+          color: #FFFFFF;
+      }
+      .auto-style10 {
+          color: #FFFFFF;
+          font-size: large;
+      }
+      </style>
+
+
+
+    <style type="text/css">
+
+        body 
+        {
+            background:#e0e0e0;
+        }
+        .auto-style12 {
+            color: #000000;
+        }
+        .auto-style13 {
+            font-size: large;
+            color: #295454;
+        }
+    </style>
+
+
+
+</head>
+<body>
+    <form id="form1" runat="server">
+         <div id="contentor">
+
+        <div id="cabecalho">
+
+           <div id="cabeca">
+
+               <div id="dentrocabeca_logo">
+
+                   <asp:Image ID="Image7" runat="server" Height="120px" ImageUrl="~/img/logo_caf.gif" Width="146px" />
+
+               </div>
+
+               <div id="dentrocabeca">
+                 
+               </div>
+
+               <div id="Busca">
+                     <input type="text" id="txtBusca" placeholder="Buscar..."/>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                     <asp:ImageButton ID="ImageButton1" runat="server" Height="30px" ImageUrl="~/img/lupa2.gif" Width="38px" />
+                    
+               </div>
+
+
+           </div>
+
+        </div>
+
+        <div id="menu">
+            
+            <div id="dentromenu">
+
+                <a href="Home.aspx" class="links"><asp:Label ID="Label2" runat="server" Text="Home"              style="color: #FFFFFF"></asp:Label></a>
+                <a href="Agenda.aspx" class="links"><asp:Label ID="Label3" runat="server" Text="Agendas"         style="color: #FFFFFF"></asp:Label></a>
+                <a href="Eventos.aspx" class="links"><asp:Label ID="Label4" runat="server" Text="Eventos"        style="color: #FFFFFF"></asp:Label></a>
+                <a href="SobreColegio.aspx" class="links"><asp:Label ID="Label1" runat="server" Text="Sobre o Colégio"        style="color: #FFFFFF"></asp:Label></a>
+                <a href="Noticias.aspx" class="links"><asp:Label ID="Label9" runat="server" Text="Notícias"        style="color: #FFFFFF"></asp:Label></a>
+                <a href="Galeria_Foto.aspx" class="links"><asp:Label ID="Label5" runat="server" Text="Galeria"   style="color: #FFFFFF"></asp:Label></a>
+                <a href="Secretaria.aspx" class="links"><asp:Label ID="Label6" runat="server" Text="Serviços"  style="color: #FFFFFF"></asp:Label></a>
+                <a href="Pagina de Login_Professor.aspx" class="links"><asp:Label ID="Label7" runat="server" Text="Professor" style="color: #FFFFFF"></asp:Label></a>
+                <a href="Página de Login_Aluno.aspx" class="links"><asp:Label ID="Label8" runat="server" Text="Aluno" style="color: #FFFFFF"></asp:Label></a>
+
+            </div>
+
+		</div>
+             
+             
+        <asp:ContentPlaceHolder ID="ContentPlaceHolder1" runat="server">
+            <p>
+                <br />
+            </p>
+        </asp:ContentPlaceHolder>
+                
+
+             <div id="rodape">
+                  <%--</em></span><a href="mailto:E-mail:arvore-da-felicidade@hotmail.com" class="auto-style12"><em>E-mail:arvore-da-felicidade@hotmail.com</em></a> <em>--%>
+                 <div id="Central_de_Atendimentos" class="auto-style3">
+                     <strong style="text-align: left"><span class="auto-style4">
+                     <br />
+                     </span>
+                     <span class="auto-style8">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 
+                     </span>
+                     <span class="auto-style13">Central de Atendimento</span><span class="auto-style8"><br />
+                     </span>
+                     </strong><span class="auto-style5"><span class="auto-style12"><em>Endereço:
+                     <br />
+                     Bairro Hoje Ya Henda. Rua Porto Santos
+                     <br />
+                     Nº 23 BC 97/A Tel.: 222386096 / 222384941 / 917579861<br />
+                     </em></span>  <a href="mailto:E-mail:arvore-da-felicidade@hotmail.com" class="auto-style12"><em>   <asp:Label ID="Label10" runat="server" Text="E-mail:arvore-da-felicidade@hotmail.com" style="color: #0099FF"></asp:Label></em></a> <em>
+                     <br class="auto-style12" />
+                     <span class="auto-style12">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Luanda - Angola</span></em></span></div>
+
+                 <div id="Links_Relacionados" class="auto-style3">
+                     <strong>
+                     <em>
+                     <br />
+                     <span class="auto-style8">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 
+                     </span>
+                     <span class="auto-style13">Links Relacionados</span><span class="auto-style8">
+                     <br />
+                     <br />
+                     </span>
+                     </em>
+                    </strong><em style="font-size: small"><span class="auto-style8">&nbsp; </span><span class="auto-style12">Univercidade-Católica(UCA)<br />
+                     &nbsp;
+                     Instituto Superior Técnico de Angola-ISTA <br />
+                     &nbsp;
+                     Universidade Privada de Angola(UPRA)</span><br />
+                     </em>
+                    </div>
+
+                 <div id="Redes_Socias" class="auto-style6">
+                     <em><strong>
+                     <br />
+                     <span class="auto-style10">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; </span>
+                     <span class="auto-style13">Redes&nbsp; Socias</span>
+                     <br />
+                     <br />
+                     <br />
+                 &nbsp;&nbsp;&nbsp; </strong>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; <a href="http://www.Facebook.com"><asp:Image ID="Image2" runat="server" Height="40px" ImageUrl="~/Icon/f.gif" Width="40px" /> </a>
+                     <a href="http://www.Skype.com"> <asp:Image ID="Image3" runat="server" Height="40px" ImageUrl="~/Icon/s.gif" Width="40px" />   </a>
+                     <a href="http://www.Twiter.com"> <asp:Image ID="Image4" runat="server" Height="40px" ImageUrl="~/Icon/t.gif" Width="40px" />      </a>
+                     <a href="http://www.YouTube.com"> <asp:Image ID="Image5" runat="server" Height="40px" ImageUrl="~/Icon/y.gif" Width="40px" />     </a>
+                     <a href="http://www.google.com"> <asp:Image ID="Image6" runat="server" Height="40px" ImageUrl="~/Icon/g.gif" Width="40px" />     </a>
+                 </div>
+
+              </div>
+
+           
+    </div>
+    </form>
+    
+</body>
+</html>

@@ -1,0 +1,5 @@
+I:\Documentos\Todo d Project\PAP2\PAP2\bin\PAP2.dll
+I:\Documentos\Todo d Project\PAP2\PAP2\bin\PAP2.pdb
+I:\Documentos\Todo d Project\PAP2\PAP2\obj\Release\Camada_Visao.csprojResolveAssemblyReference.cache
+I:\Documentos\Todo d Project\PAP2\PAP2\obj\Release\PAP2.dll
+I:\Documentos\Todo d Project\PAP2\PAP2\obj\Release\PAP2.pdb

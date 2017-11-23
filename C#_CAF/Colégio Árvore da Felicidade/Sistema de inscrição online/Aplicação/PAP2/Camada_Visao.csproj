@@ -1,0 +1,500 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProductVersion>
+    </ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{67A0EB2E-82F3-4B1F-8022-8EF416C3DA9E}</ProjectGuid>
+    <ProjectTypeGuids>{349c5851-65df-11da-9384-00065b846f21};{fae04ec0-301f-11d3-bf4b-00c04f79efbc}</ProjectTypeGuids>
+    <OutputType>Library</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>PAP2</RootNamespace>
+    <AssemblyName>PAP2</AssemblyName>
+    <TargetFrameworkVersion>v4.5</TargetFrameworkVersion>
+    <UseIISExpress>true</UseIISExpress>
+    <IISExpressSSLPort />
+    <IISExpressAnonymousAuthentication />
+    <IISExpressWindowsAuthentication />
+    <IISExpressUseClassicPipelineMode />
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <UseVSHostingProcess>true</UseVSHostingProcess>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Web.DataVisualization" />
+    <Reference Include="System.Web.DynamicData" />
+    <Reference Include="System.Web.Entity" />
+    <Reference Include="System.Web.ApplicationServices" />
+    <Reference Include="System.ComponentModel.DataAnnotations" />
+    <Reference Include="System" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="System.Web.Extensions" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Web" />
+    <Reference Include="System.Xml" />
+    <Reference Include="System.Configuration" />
+    <Reference Include="System.Web.Services" />
+    <Reference Include="System.EnterpriseServices" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="Agenda.aspx" />
+    <Content Include="Ajuda.aspx" />
+    <Content Include="Area_Direcao_Geral.aspx" />
+    <Content Include="Area_Pedagogica.aspx" />
+    <Content Include="Area_Uniforme.aspx" />
+    <Content Include="Area_Usuario.aspx" />
+    <Content Include="Cadastro_Professor.aspx" />
+    <Content Include="Ciências Físicas e biológicas.aspx" />
+    <Content Include="css\css1.css" />
+    <Content Include="css\css2.css" />
+    <Content Include="css\css3.css" />
+    <Content Include="css\css4.css" />
+    <Content Include="css\css5.css" />
+    <Content Include="css\cssSladersecretaria.css" />
+    <Content Include="css\css_Admi.css" />
+    <Content Include="Eletrónica.aspx" />
+    <Content Include="engine1\arrows.png" />
+    <Content Include="engine1\bullet.png" />
+    <Content Include="engine1\triangle.png" />
+    <Content Include="Eventos.aspx" />
+    <Content Include="Area_Aluno.aspx" />
+    <Content Include="Foto_Galeria\27102011569.jpg" />
+    <Content Include="Foto_Galeria\SAM_3977.JPG" />
+    <Content Include="Foto_Galeria\SAM_4095.JPG" />
+    <Content Include="Foto_Galeria\SAM_4190.JPG" />
+    <Content Include="Galeria_Foto.aspx" />
+    <Content Include="Home.aspx" />
+    <Content Include="Icon\f.gif" />
+    <Content Include="Icon\g.gif" />
+    <Content Include="Icon\s.gif" />
+    <Content Include="Icon\t.gif" />
+    <Content Include="Icon\y.gif" />
+    <Content Include="imagensMenuSecretaria\classes_secre.jpg" />
+    <Content Include="imagensMenuSecretaria\documentos_secre.jpg" />
+    <Content Include="imagensMenuSecretaria\home_secre.jpg" />
+    <Content Include="imagensMenuSecretaria\introdução_secre.jpg" />
+    <Content Include="imagensMenuSecretaria\matric_secre.jpg" />
+    <Content Include="imagensMenuSecretaria\Preço_secre.jpg" />
+    <Content Include="imagensMenuSecretaria\uniforme_secre.jpg" />
+    <Content Include="imagens\Ater.gif" />
+    <Content Include="imagens\Don_Franck.gif" />
+    <Content Include="imagens\Foto_User.gif" />
+    <Content Include="imagens\user.gif" />
+    <Content Include="imgsladersecretaria\images\1.jpg" />
+    <Content Include="imgsladersecretaria\images\2.jpg" />
+    <Content Include="imgsladersecretaria\images\3.jpg" />
+    <Content Include="imgsladersecretaria\images\4.jpg" />
+    <Content Include="imgsladersecretaria\images\ins.jpg" />
+    <Content Include="imgsladersecretaria\images\lab.jpg" />
+    <Content Include="imgsladersecretaria\images\mix.jpg" />
+    <Content Include="imgsladersecretaria\images\quadro.jpg" />
+    <Content Include="imgsladersecretaria\tooltips\1.jpg" />
+    <Content Include="imgsladersecretaria\tooltips\2.jpg" />
+    <Content Include="imgsladersecretaria\tooltips\3.jpg" />
+    <Content Include="imgsladersecretaria\tooltips\4.jpg" />
+    <Content Include="imgsladersecretaria\tooltips\ins.jpg" />
+    <Content Include="imgsladersecretaria\tooltips\lab.jpg" />
+    <Content Include="imgsladersecretaria\tooltips\mix.jpg" />
+    <Content Include="imgsladersecretaria\tooltips\quadro.jpg" />
+    <Content Include="img\bg.gif" />
+    <Content Include="img\bgmenu.gif" />
+    <Content Include="img\bgmenu2.jpg" />
+    <Content Include="img\cabeca2.gif" />
+    <Content Include="img\Car.gif" />
+    <Content Include="img\conselho_22.jpg" />
+    <Content Include="img\Cursos.gif" />
+    <Content Include="img\dentrocabeca.gif" />
+    <Content Include="img\electro.gif" />
+    <Content Include="img\EPAL.gif" />
+    <Content Include="img\fundo_eletro.gif" />
+    <Content Include="img\fundo_matric.gif" />
+    <Content Include="img\fundo_puniv.gif" />
+    <Content Include="img\g %281%29.JPG" />
+    <Content Include="img\g %282%29.JPG" />
+    <Content Include="img\g %283%29.JPG" />
+    <Content Include="img\g %284%29.JPG" />
+    <Content Include="img\g %285%29.JPG" />
+    <Content Include="img\Galeria.JPG" />
+    <Content Include="img\img.png" />
+    <Content Include="img\img1.jpg" />
+    <Content Include="img\infor.gif" />
+    <Content Include="img\lab.gif" />
+    <Content Include="img\logo_caf.gif" />
+    <Content Include="img\lupa.gif" />
+    <Content Include="img\menu.gif" />
+    <Content Include="img\menu_secre.jpg" />
+    <Content Include="img\Palestra.JPG" />
+    <Content Include="img\puniv.gif" />
+    <Content Include="img\RNA.gif" />
+    <Content Include="img\rodape.gif" />
+    <Content Include="img\txtCursos.gif" />
+    <Content Include="Informática.aspx" />
+    <Content Include="js\JavaScript1.js" />
+    <Content Include="js\JavaScript2.js" />
+    <Content Include="js\JavaScript3.js" />
+    <Content Include="js\JavaScript4.js" />
+    <Content Include="js\JavaScript5.js" />
+    <Content Include="js\JavaScript6Sladersecretaria.js" />
+    <Content Include="js\JavaScript6Sladersecretaria2.js" />
+    <Content Include="js\JavaScript6Sladersecretaria3.js" />
+    <Content Include="Login_Administrodar.aspx" />
+    <Content Include="Matriculas e Confirmações.aspx" />
+    <Content Include="Matrícula.aspx" />
+    <Content Include="Noticias.aspx" />
+    <Content Include="Pagina de Login_Professor.aspx" />
+    <Content Include="Perfil_Aluno.aspx" />
+    <Content Include="Perfil_Aluno_Comprar.aspx" />
+    <Content Include="Perfil_Aluno_Pagar.aspx" />
+    <Content Include="Perfil_Aluno_Ver_Notas.aspx" />
+    <Content Include="Perfil_Prof_Tarde.aspx" />
+    <Content Include="Perfíl_Prof_Manhã.aspx" />
+    <Content Include="Página de Login_Aluno.aspx" />
+    <Content Include="PáginadoAdministrador.aspx" />
+    <Content Include="Secretaria.aspx" />
+    <Content Include="Slader\engine1\arrows.png" />
+    <Content Include="Slader\engine1\bullet.png" />
+    <Content Include="Slader\engine1\jquery.js" />
+    <Content Include="Slader\engine1\script.js" />
+    <Content Include="Slader\engine1\style.css" />
+    <Content Include="Slader\engine1\triangle.png" />
+    <Content Include="Slader\engine1\wowslider.js" />
+    <Content Include="Slader\images\ins.jpg" />
+    <Content Include="Slader\images\lab.jpg" />
+    <Content Include="Slader\images\mix.jpg" />
+    <Content Include="Slader\images\quadro.jpg" />
+    <Content Include="Slader\tooltips\ins.jpg" />
+    <Content Include="Slader\tooltips\lab.jpg" />
+    <Content Include="Slader\tooltips\mix.jpg" />
+    <Content Include="Slader\tooltips\quadro.jpg" />
+    <Content Include="SobreColegio.aspx" />
+    <Content Include="Web.config">
+      <SubType>Designer</SubType>
+    </Content>
+    <Content Include="WebForm1.aspx" />
+    <Content Include="Área Administrativa.aspx" />
+    <Content Include="Área de Pagamento.aspx" />
+    <Content Include="Área_de_Pauta.aspx" />
+    <Content Include="Área_Professor.aspx" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Agenda.aspx.cs">
+      <DependentUpon>Agenda.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Agenda.aspx.designer.cs">
+      <DependentUpon>Agenda.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Ajuda.aspx.cs">
+      <DependentUpon>Ajuda.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Ajuda.aspx.designer.cs">
+      <DependentUpon>Ajuda.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Area_Direcao_Geral.aspx.cs">
+      <DependentUpon>Area_Direcao_Geral.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Area_Direcao_Geral.aspx.designer.cs">
+      <DependentUpon>Area_Direcao_Geral.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Area_Pedagogica.aspx.cs">
+      <DependentUpon>Area_Pedagogica.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Area_Pedagogica.aspx.designer.cs">
+      <DependentUpon>Area_Pedagogica.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Area_Uniforme.aspx.cs">
+      <DependentUpon>Area_Uniforme.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Area_Uniforme.aspx.designer.cs">
+      <DependentUpon>Area_Uniforme.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Area_Usuario.aspx.cs">
+      <DependentUpon>Area_Usuario.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Area_Usuario.aspx.designer.cs">
+      <DependentUpon>Area_Usuario.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Cadastro_Professor.aspx.cs">
+      <DependentUpon>Cadastro_Professor.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Cadastro_Professor.aspx.designer.cs">
+      <DependentUpon>Cadastro_Professor.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Ciências Físicas e biológicas.aspx.cs">
+      <DependentUpon>Ciências Físicas e biológicas.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Ciências Físicas e biológicas.aspx.designer.cs">
+      <DependentUpon>Ciências Físicas e biológicas.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Eletrónica.aspx.cs">
+      <DependentUpon>Eletrónica.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Eletrónica.aspx.designer.cs">
+      <DependentUpon>Eletrónica.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Eventos.aspx.cs">
+      <DependentUpon>Eventos.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Eventos.aspx.designer.cs">
+      <DependentUpon>Eventos.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Area_Aluno.aspx.cs">
+      <DependentUpon>Area_Aluno.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Area_Aluno.aspx.designer.cs">
+      <DependentUpon>Area_Aluno.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Galeria_Foto.aspx.cs">
+      <DependentUpon>Galeria_Foto.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Galeria_Foto.aspx.designer.cs">
+      <DependentUpon>Galeria_Foto.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Home.aspx.cs">
+      <DependentUpon>Home.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Home.aspx.designer.cs">
+      <DependentUpon>Home.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Informática.aspx.cs">
+      <DependentUpon>Informática.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Informática.aspx.designer.cs">
+      <DependentUpon>Informática.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Login_Administrodar.aspx.cs">
+      <DependentUpon>Login_Administrodar.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Login_Administrodar.aspx.designer.cs">
+      <DependentUpon>Login_Administrodar.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Matriculas e Confirmações.aspx.cs">
+      <DependentUpon>Matriculas e Confirmações.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Matriculas e Confirmações.aspx.designer.cs">
+      <DependentUpon>Matriculas e Confirmações.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Matrícula.aspx.cs">
+      <DependentUpon>Matrícula.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Matrícula.aspx.designer.cs">
+      <DependentUpon>Matrícula.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Modelo.Master.cs">
+      <DependentUpon>Modelo.Master</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Modelo.Master.designer.cs">
+      <DependentUpon>Modelo.Master</DependentUpon>
+    </Compile>
+    <Compile Include="Noticias.aspx.cs">
+      <DependentUpon>Noticias.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Noticias.aspx.designer.cs">
+      <DependentUpon>Noticias.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Pagina de Login_Professor.aspx.cs">
+      <DependentUpon>Pagina de Login_Professor.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Pagina de Login_Professor.aspx.designer.cs">
+      <DependentUpon>Pagina de Login_Professor.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Perfil_Aluno.aspx.cs">
+      <DependentUpon>Perfil_Aluno.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Perfil_Aluno.aspx.designer.cs">
+      <DependentUpon>Perfil_Aluno.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Perfil_Aluno_Comprar.aspx.cs">
+      <DependentUpon>Perfil_Aluno_Comprar.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Perfil_Aluno_Comprar.aspx.designer.cs">
+      <DependentUpon>Perfil_Aluno_Comprar.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Perfil_Aluno_Pagar.aspx.cs">
+      <DependentUpon>Perfil_Aluno_Pagar.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Perfil_Aluno_Pagar.aspx.designer.cs">
+      <DependentUpon>Perfil_Aluno_Pagar.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Perfil_Aluno_Ver_Notas.aspx.cs">
+      <DependentUpon>Perfil_Aluno_Ver_Notas.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Perfil_Aluno_Ver_Notas.aspx.designer.cs">
+      <DependentUpon>Perfil_Aluno_Ver_Notas.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Perfil_Prof_Tarde.aspx.cs">
+      <DependentUpon>Perfil_Prof_Tarde.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Perfil_Prof_Tarde.aspx.designer.cs">
+      <DependentUpon>Perfil_Prof_Tarde.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Perfíl_Prof_Manhã.aspx.cs">
+      <DependentUpon>Perfíl_Prof_Manhã.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Perfíl_Prof_Manhã.aspx.designer.cs">
+      <DependentUpon>Perfíl_Prof_Manhã.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="Página de Login_Aluno.aspx.cs">
+      <DependentUpon>Página de Login_Aluno.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Página de Login_Aluno.aspx.designer.cs">
+      <DependentUpon>Página de Login_Aluno.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="PáginadoAdministrador.aspx.cs">
+      <DependentUpon>PáginadoAdministrador.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="PáginadoAdministrador.aspx.designer.cs">
+      <DependentUpon>PáginadoAdministrador.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Secretaria.aspx.cs">
+      <DependentUpon>Secretaria.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Secretaria.aspx.designer.cs">
+      <DependentUpon>Secretaria.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="SobreColegio.aspx.cs">
+      <DependentUpon>SobreColegio.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="SobreColegio.aspx.designer.cs">
+      <DependentUpon>SobreColegio.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="WebForm1.aspx.cs">
+      <DependentUpon>WebForm1.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="WebForm1.aspx.designer.cs">
+      <DependentUpon>WebForm1.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Área Administrativa.aspx.cs">
+      <DependentUpon>Área Administrativa.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Área Administrativa.aspx.designer.cs">
+      <DependentUpon>Área Administrativa.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Área de Pagamento.aspx.cs">
+      <DependentUpon>Área de Pagamento.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Área de Pagamento.aspx.designer.cs">
+      <DependentUpon>Área de Pagamento.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Área_de_Pauta.aspx.cs">
+      <DependentUpon>Área_de_Pauta.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Área_de_Pauta.aspx.designer.cs">
+      <DependentUpon>Área_de_Pauta.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Área_Professor.aspx.cs">
+      <DependentUpon>Área_Professor.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Área_Professor.aspx.designer.cs">
+      <DependentUpon>Área_Professor.aspx</DependentUpon>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="Modelo.Master" />
+    <None Include="Web.Debug.config">
+      <DependentUpon>Web.config</DependentUpon>
+    </None>
+    <None Include="Web.Release.config">
+      <DependentUpon>Web.config</DependentUpon>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include="Curríclus\" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\Camada_Modelo\Camada_Modelo.csproj">
+      <Project>{82664f61-95ce-4aca-9f68-23b2c1209184}</Project>
+      <Name>Camada_Modelo</Name>
+    </ProjectReference>
+  </ItemGroup>
+  <PropertyGroup>
+    <VisualStudioVersion Condition="'$(VisualStudioVersion)' == ''">10.0</VisualStudioVersion>
+    <VSToolsPath Condition="'$(VSToolsPath)' == ''">$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v$(VisualStudioVersion)</VSToolsPath>
+  </PropertyGroup>
+  <Import Project="$(MSBuildBinPath)\Microsoft.CSharp.targets" />
+  <Import Project="$(VSToolsPath)\WebApplications\Microsoft.WebApplication.targets" Condition="'$(VSToolsPath)' != ''" />
+  <Import Project="$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v10.0\WebApplications\Microsoft.WebApplication.targets" Condition="false" />
+  <ProjectExtensions>
+    <VisualStudio>
+      <FlavorProperties GUID="{349c5851-65df-11da-9384-00065b846f21}">
+        <WebProjectProperties>
+          <UseIIS>True</UseIIS>
+          <AutoAssignPort>True</AutoAssignPort>
+          <DevelopmentServerPort>0</DevelopmentServerPort>
+          <DevelopmentServerVPath>/</DevelopmentServerVPath>
+          <IISUrl>http://localhost:1085/</IISUrl>
+          <NTLMAuthentication>False</NTLMAuthentication>
+          <UseCustomServer>False</UseCustomServer>
+          <CustomServerUrl>
+          </CustomServerUrl>
+          <SaveServerSettingsInUserFile>False</SaveServerSettingsInUserFile>
+        </WebProjectProperties>
+      </FlavorProperties>
+    </VisualStudio>
+  </ProjectExtensions>
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>

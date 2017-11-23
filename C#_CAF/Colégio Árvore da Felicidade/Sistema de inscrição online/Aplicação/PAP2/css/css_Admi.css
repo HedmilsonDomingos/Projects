@@ -1,0 +1,279 @@
+﻿* 
+{
+    margin:0;
+    padding:0;
+    border:0;
+}
+
+
+#Corpo_Admi
+{
+    width:79%;
+    height: auto;
+    background:#fff;
+    margin:5px 0 5px 5px;
+    float:left;
+}
+
+#menu_Admi 
+{
+    width: auto;
+    height: auto;
+    float: right;
+    margin: 60px 15px 0 0;
+    border-radius:15px;
+}
+
+
+
+#dentro_menu_Admi
+{
+    width:100%;
+    height: 280px;
+    background-image:url(../img/menu_secre.jpg);
+    float:right;
+    border-radius:15px;
+}
+
+#img_Admi 
+{
+    width:300px;
+    height: 300px;
+    background:url(../imagens/user.gif);
+    margin: 60px 0 50px 17% ;
+    float:left;
+    border-radius:15px;
+}
+#txt_Admi
+{
+    width:300px;
+    height: 300px;
+    background-color: transparent;
+    border: solid 1px #570000;
+    margin:60px 0 0 0;
+    float:left;
+    text-align: left;
+    border-radius:15px;
+}
+
+
+#cont_Aluno
+{
+    width:65%;
+    height: auto;
+    background-color: transparent;
+    float:left;
+    margin:0 0 0 19%;
+}
+
+#Area_Cadastro
+{
+    width:48%;
+    height: 350px;
+    background-color: #a0a0a0;
+    float:left;
+    margin: 10px 0 0 0;
+}
+
+
+
+#Area_Pesquisa
+{
+    width:48%;
+    height: 350px;
+    background-color: #a0a0a0;
+    float:right;
+    margin: 10px 0 0 0;
+}
+
+#Area_Actualizar
+{
+    width:48%;
+    height: 350px;
+    background-color: #a0a0a0;
+    float:left;
+    margin: 10px 0 0 0;
+}
+
+#Area_Delete
+{
+    width:48%;
+    height: 350px;
+    background-color: #a0a0a0;
+    float:right;
+    margin: 10px 0 0 0;
+}
+
+#corpo_Admi
+{
+    background-image:url(../img/img.png);
+    background-color: #cccccc;
+}
+
+#Controla_Gridview
+{
+    width:auto;
+    height: auto;
+    background-color: transparent;
+    clear:both;
+    margin:0 0 0 19%;
+  
+}
+
+#cont_Prof
+{
+    width:65%;
+    height: auto;
+    background-color: transparent;
+    float:left;
+    margin:0 0 0 19%;
+}
+
+#Area_Cadastro_Prof
+{
+    width:48%;
+    height: 260px;
+    background-color: #a0a0a0;
+    float:left;
+    margin: 10px 0 0 0;
+}
+
+#Area_Pesquisa_Prof
+{
+    width:48%;
+    height: 260px;
+    background-color: #a0a0a0;
+    float:right;
+    margin: 10px 0 0 0;
+}
+
+#Area_Actualizar_Prof
+{
+    width:48%;
+    height: 260px;
+    background-color: #a0a0a0;
+    float:left;
+    margin: 10px 0 0 0;
+}
+
+#Area_Delete_Prof
+{
+    width:48%;
+    height: 260px;
+    background-color: #a0a0a0;
+    float:right;
+    margin: 10px 0 0 0;
+}
+
+
+#cont_uniforme
+{
+    width:65%;
+    height: auto;
+    background-color: transparent;
+    float:left;
+    margin:0 0 0 26%;
+}
+
+
+#cont_Usuario
+{
+    width:65%;
+    height: auto;
+    background-color: transparent;
+    float:left;
+    margin:0 0 0 28%;
+}
+
+/*-----------CSS Director Pedagógico---------------*/
+
+#cont_Pedagogia
+{
+    width:65%;
+    height: auto;
+    background-color: transparent;
+    float:left;
+    margin:0 0 0 19%;
+}
+
+#Area_Visualizacao_Pedagogica
+{
+    width:48%;
+    height: 350px;
+    background-color: #a0a0a0;
+    float:left;
+    margin: 10px 0 0 0;
+}
+
+
+
+#Area_Actualizacao_Pedagogia
+{
+    width:48%;
+    height: 350px;
+    background-color: #a0a0a0;
+    float:right;
+    margin: 10px 0 0 0;
+}
+
+/*-----------CSS Area Administrativa---------------*/
+
+#cont_Area_Administrativa
+{
+    width:65%;
+    height: auto;
+    background-color: transparent;
+    float:left;
+    margin:0 0 0 19%;
+}
+
+#Area_Admicao
+{
+    width:48%;
+    height: 350px;
+    background-color: #a0a0a0;
+    float:left;
+    margin: 10px 0 0 0;
+}
+
+
+
+#Area_Pesquisa_Admi
+{
+    width:48%;
+    height: 350px;
+    background-color: #a0a0a0;
+    float:right;
+    margin: 10px 0 0 0;
+}
+
+/*-----------CSS Area Direcao Geral---------------*/
+
+#cont_Direcao_Geral
+{
+    width:65%;
+    height: auto;
+    background-color: transparent;
+    float:left;
+    margin:0 0 0 19%;
+}
+
+#Area_Pesquisa_Direcao_Geral_1
+{
+    width:48%;
+    height: 350px;
+    background-color: transparent;
+    float:left;
+    margin: 10px 0 0 0;
+}
+
+
+
+#Area_Pesquisa_Direcao_Geral_2
+{
+    width:48%;
+    height: 350px;
+    background-color: transparent;
+    float:right;
+    margin: 10px 0 0 0;
+}

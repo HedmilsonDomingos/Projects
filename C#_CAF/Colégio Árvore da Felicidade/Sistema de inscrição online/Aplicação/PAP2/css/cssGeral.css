@@ -1,0 +1,197 @@
+﻿
+#contentor
+{
+    border-style: none;
+    border-color: inherit;
+    border-width: medium;
+    width:65%;
+    height:auto;
+    margin:0;
+    padding:0;
+    background-color: #fff;
+    position:relative;
+    left: 17%;
+    bottom: -15px;
+}
+
+#cabecalho
+{
+    width:auto;
+    height: 120px;
+    background: #510000 ;
+    margin: 0 0 1px 0 ;
+}
+
+
+#Curso
+{
+    width:auto;
+    height: 30px;
+    background-color: #5a0000;
+    margin: 0 0 5px 0 ;
+
+}
+
+#menu
+{
+    width:auto;
+    height: 50px;
+    background-color: #fff;
+    margin: 0 0 5px 0 ;
+
+}
+
+#corpo
+{
+    width:auto;
+    height: auto;
+    margin: 0 0 5px 0 ;
+    background-color: #fff;
+}
+
+
+#corpo-left
+{
+    width:70%;
+    height: 300px;
+    background-color: #fff;
+    float: left;
+     margin: 0 0 5px 0 ;
+}
+
+
+
+#corpo-rigth
+{
+    width:300px;
+    height: 313px;
+    background-color: #fff;
+    float: right;
+     margin: 0 0 5px 0 ;
+}
+
+#corpo_bottom
+{
+    width:auto;
+    height: 250px;
+    background-color: #fff;
+    clear:both;
+    margin: 0 0 5px 0 ;
+}
+
+#e
+{
+    width:10px;
+    height: 230px;
+    background-color: #fff;
+    float: left;
+    border:solid 10px #fff;
+}
+
+#info
+{
+    width:300px;
+    height: 230px;
+    background-color: #fff;
+    float: left;
+    border:solid 10px #fff;
+}
+
+#eletro
+{
+    width:300px;
+    height: 230px;
+    background-color: #fff;
+    float: left;
+    border:solid 10px #fff;
+}
+
+#puni
+{
+    width:300px;
+    height: 230px;
+    background-color: #fff;
+    float: left;
+    border:solid 10px #fff;
+}
+
+#sep
+{
+    width:auto;
+    height: 80px;
+    background-color: #fff;
+    border:solid 10px #fff;
+}
+
+#Central_de_Atendimentos 
+{
+     width:300px;
+    height: 250px;
+    background-color: #650c0c;
+    margin: 0 0 0 19% ;
+    float: left;
+}
+
+#Links_Relacionados 
+{
+     width:300px;
+    height: 250px;
+    background-color: #650c0c;
+    margin: 0 0 0 30px ;
+    float: left;
+}
+
+#Redes_Socias 
+{
+     width:300px;
+    height: 250px;
+    background-color: #650c0c;
+    margin: 0 0 0 30px ;
+    float: left;
+}
+
+#img 
+{
+
+    width:300px;
+    height: 300px;
+    background-color: #fff;
+    float: left;
+    border:solid 2px #5a0000;
+        margin: 35px 0 25px 30% ;
+}
+
+#txt
+{
+
+    width:300px;
+    height: 300px;
+    background-color: #fff;
+    float: left;
+    border:solid 2px #5a0000;
+        margin: 35px 0 25px 0 ;
+}
+
+#matric 
+{
+
+    width:700px;
+    height: 600px;
+    background-color: #fff;
+    float: left;
+    border:solid 1px #5a0000;
+        margin: 35px 0 25px 28% ;
+}
+
+#rodape
+{
+    width:auto;
+    height: 250px;
+    background-color: #650c0c;
+    clear:both;
+    margin: 0 0 0 0 ;
+}
+
+
+
+   
