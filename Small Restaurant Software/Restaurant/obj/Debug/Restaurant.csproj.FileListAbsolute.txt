@@ -1,0 +1,23 @@
+c:\users\sohaib\documents\visual studio 2015\Projects\Restaurant\Restaurant\bin\Debug\Restaurant.exe.config
+c:\users\sohaib\documents\visual studio 2015\Projects\Restaurant\Restaurant\bin\Debug\Restaurant.exe
+c:\users\sohaib\documents\visual studio 2015\Projects\Restaurant\Restaurant\bin\Debug\Restaurant.pdb
+c:\users\sohaib\documents\visual studio 2015\Projects\Restaurant\Restaurant\obj\Debug\Restaurant.csprojResolveAssemblyReference.cache
+c:\users\sohaib\documents\visual studio 2015\Projects\Restaurant\Restaurant\obj\Debug\Restaurant.Form1.resources
+c:\users\sohaib\documents\visual studio 2015\Projects\Restaurant\Restaurant\obj\Debug\Restaurant.Properties.Resources.resources
+c:\users\sohaib\documents\visual studio 2015\Projects\Restaurant\Restaurant\obj\Debug\Restaurant.csproj.GenerateResource.Cache
+c:\users\sohaib\documents\visual studio 2015\Projects\Restaurant\Restaurant\obj\Debug\Restaurant.exe
+c:\users\sohaib\documents\visual studio 2015\Projects\Restaurant\Restaurant\obj\Debug\Restaurant.pdb
+C:\Users\Sohaib\documents\visual studio 2015\Projects\Restaurant\Restaurant\obj\Debug\Restaurant.Form2.resources
+C:\Users\Sohaib\documents\visual studio 2015\Projects\Restaurant\Restaurant\obj\Debug\Restaurant.Form3.resources
+C:\Users\Sohaib\documents\visual studio 2015\Projects\Restaurant\Restaurant\obj\Debug\Restaurant.Form4.resources
+C:\Users\Sohaib\documents\visual studio 2015\Projects\Restaurant\Restaurant\obj\Debug\Restaurant.login_adm.resources
+C:\Users\Sohaib\documents\visual studio 2015\Projects\Restaurant\Restaurant\obj\Debug\Restaurant.Form5.resources
+C:\Users\Sohaib\Documents\Visual Studio 2015\Projects\Restaurant\Restaurant\obj\Debug\Restaurant.Form6.resources
+C:\Users\Sohaib\Documents\Visual Studio 2015\Projects\Restaurant\Restaurant\obj\Debug\Restaurant.Form7.resources
+C:\Users\Sohaib\documents\visual studio 2015\Projects\Restaurant\Restaurant\obj\Debug\Restaurant.Provide_Delivery.resources
+K:\Restaurant\Restaurant\bin\Debug\Restaurant.exe.config
+K:\Restaurant\Restaurant\obj\Debug\Restaurant.exe
+K:\Restaurant\Restaurant\obj\Debug\Restaurant.pdb
+D:\Christ_University\II Semester\Visual C#\Restaurant\Restaurant\bin\Debug\Restaurant.exe.config
+D:\Christ_University\II Semester\Visual C#\Restaurant\Restaurant\obj\Debug\Restaurant.exe
+D:\Christ_University\II Semester\Visual C#\Restaurant\Restaurant\obj\Debug\Restaurant.pdb
